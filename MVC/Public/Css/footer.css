@@ -1,0 +1,40 @@
+
+/*................RODAPÉ.................*/
+
+footer{
+    background-color: rgba(0, 0, 0, .4);
+    color: black;
+    padding: 10px;
+    text-align: center;
+    margin: 20px 0px auto;
+}
+footer strong span{
+    color: rgb(92, 91, 91);
+}
+footer strong{
+    font-size: 2rem;
+    text-align: start;
+}
+ul{
+    list-style: none;
+}
+.rodape li:hover{
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    
+}
+
+.rodape div:first-child{
+    text-align: left;
+    margin: 10px;
+    border: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.rodape div:last-child{
+    color: black;
+    padding: 20px 0 0 0;
+}

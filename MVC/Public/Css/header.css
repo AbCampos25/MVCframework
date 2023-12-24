@@ -1,0 +1,75 @@
+/*............CABEÇALIO...........*/
+header{
+    font-size: 30px;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+    background-color:rgb(5, 6, 54);
+    background-attachment: fixed;
+    box-shadow: 0 0 10px 0 rgb(56, 55, 55);
+    padding: 20px;
+    font-size: 30;
+   
+    
+}
+strong span{
+    color: rgb(92, 91, 91);
+}
+
+/* ..........MENU................*/
+nav{
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+nav li{
+    background-color: rgb(5, 6, 54);
+    box-shadow: 0 0 10px 0 rgb(56, 55, 55);
+    padding: 5px;
+    list-style: none;
+    float: right;
+    margin-right: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    transition-property: color, background;
+    transition-duration: 1s;
+}
+#reg{
+   color: rgb(5, 6, 54);
+   background-color: white;
+}
+#reg a{
+   color: rgb(5, 6, 54);
+}
+li a:hover{
+    color: rgb(5, 6, 54);
+
+}
+li:hover{
+   color: rgb(5, 6, 54);
+  background-color: white;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    transition-property: color;
+    transition-duration: 1s;
+}
+
+nav a{
+   outline: none;
+   padding: 5px;
+   font-size: 13pt;
+   text-decoration: none;
+
+}
+
+
+
+nav i {
+   display: inline-block;
+   margin-right: 5px;
+   font-size: 1.5em;
+   
+ }
